@@ -1,2 +1,1 @@
-# chromeplugin-playground
-Chrome plugin example
+A small plugin that includes jquery and modifies a webpage. Because sometimes you have no choice.
