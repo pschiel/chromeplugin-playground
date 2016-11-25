@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "plugins.cakephp.org sort",
+	"description": "Replacement for missing this->Paginator->sort('watchers')",
+	"version": "1.0",
+	"content_scripts": [
+		{
+			"matches": ["http://plugins.cakephp.org/"],
+			"js": ["jquery.js", "plugins.cakephp.org.sort.js"]
+		}
+	]
+}
